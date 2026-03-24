@@ -20,7 +20,7 @@ Jefferson.
         vinicial = ler.nextDouble();
         System.out.print("Insira a aceleração (em m/s2) ");
         aceleracao = ler.nextDouble();
-        System.out.print("Insira o tempo do percurso (em s)");
+        System.out.print("Insira o tempo do percurso (em s) ");
         tempo = ler.nextDouble();
         
         double vfinal = (vinicial+(aceleracao*tempo)) * 3.6;

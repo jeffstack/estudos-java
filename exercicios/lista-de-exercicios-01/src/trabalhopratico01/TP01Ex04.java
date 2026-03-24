@@ -15,7 +15,7 @@ Jefferson.
         
         System.out.print("Insira o valor da base do triângulo ");
         base = ler.nextInt();
-        System.out.print("Insira o valor da altura do triângulo");
+        System.out.print("Insira o valor da altura do triângulo ");
         altura = ler.nextInt();
         
         double area = (base*altura)/2;
