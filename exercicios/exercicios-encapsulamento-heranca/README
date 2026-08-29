@@ -1,0 +1,83 @@
+# 📚 Exercícios de Programação Orientada a Objetos
+
+Este repositório reúne exercícios desenvolvidos durante os estudos de **Java** no curso de **Análise e Desenvolvimento de Sistemas (ADS)**. As atividades têm como objetivo praticar os principais conceitos da **Programação Orientada a Objetos**, utilizando classes, objetos, encapsulamento, herança e sobrescrita de métodos.
+
+## ✅ Funcionalidades Implementadas
+
+- Criação e utilização de classes e objetos em Java.
+- Definição de atributos privados para proteger os dados das classes.
+- Criação de construtores para inicialização dos objetos.
+- Implementação de métodos `get` e `set` para acesso e alteração controlada dos atributos.
+- Sobrescrita do método `toString()` para apresentar os dados dos objetos.
+- Utilização de arrays formados por objetos da classe `Author`.
+- Relacionamento entre livros e seus respectivos autores.
+- Aplicação de herança entre as classes `Person`, `Student` e `Staff`.
+- Criação de classes de teste para verificar o funcionamento dos métodos implementados.
+
+## 💻 Tecnologias e Conceitos Aplicados
+
+- Linguagem Java.
+- IDE Apache NetBeans.
+- Programação Orientada a Objetos (POO).
+- Classes, objetos e atributos.
+- Encapsulamento com atributos `private`.
+- Construtores.
+- Métodos getters e setters.
+- Herança com `extends`.
+- Sobrescrita de métodos com `@Override`.
+- Arrays de objetos.
+- Método `toString()`.
+
+## 📂 Organização dos Exercícios
+
+### Exercício 01 — Classe Author
+
+Implementação da classe `Author`, que representa um autor de livros. A atividade trabalha atributos privados, construtor, getters, setter de e-mail e sobrescrita do método `toString()`.
+
+A classe `TestAuthor` contém os testes do construtor, do método `toString()`, do setter e dos getters.
+
+### Exercício 02 — Classe Book
+
+Implementação da classe `Book`, que representa um livro escrito por um ou mais autores. A classe utiliza um array de objetos `Author` e apresenta os dados do livro por meio do método `toString()`.
+
+A classe `TestBook` cria os autores, instancia um livro e testa a exibição dos seus dados.
+
+### Exercício 03 — Herança entre classes
+
+Implementação das classes `Person`, `Student` e `Staff`, conforme o diagrama proposto na atividade.
+
+A classe `Student` representa um estudante e possui informações como curso, ano e mensalidade. A classe `Staff` representa um funcionário e possui informações como escola e pagamento. As duas classes herdam características da classe `Person`.
+
+A classe `TesteExercicio03` testa os construtores, getters, setters e métodos `toString()` das classes envolvidas.
+
+## ▶️ Como Executar
+
+1. Clone este repositório ou faça o download dos arquivos.
+
+```bash
+git clone URL_DO_REPOSITORIO
+```
+
+2. Abra o Apache NetBeans.
+
+3. Abra ou crie um projeto Java para o exercício que deseja executar.
+
+4. Adicione os arquivos `.java` correspondentes ao projeto, mantendo a organização dos pacotes.
+
+5. Execute a classe de teste do exercício escolhido:
+
+| Exercício | Classe principal de teste |
+|---|---|
+| Exercício 01 | `TestAuthor.java` |
+| Exercício 02 | `TestBook.java` |
+| Exercício 03 | `TesteExercicio03.java` |
+
+6. No NetBeans, clique com o botão direito na classe de teste e selecione **Run File** ou pressione `Shift + F6`.
+
+## 🧪 Testes Realizados
+
+As classes de teste foram criadas para verificar o funcionamento dos construtores, getters, setters e métodos `toString()`. Os programas foram compilados e executados com sucesso, sem erros de compilação.
+
+## 🎯 Objetivo do Repositório
+
+Este repositório faz parte dos meus estudos em Java e será utilizado para armazenar atividades, exercícios e práticas relacionadas ao desenvolvimento de sistemas e à Programação Orientada a Objetos.
