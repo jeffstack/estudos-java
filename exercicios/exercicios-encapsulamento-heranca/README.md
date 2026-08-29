@@ -1,6 +1,4 @@
-# 📚 Exercícios de Programação Orientada a Objetos
-
-Este repositório reúne exercícios desenvolvidos durante os estudos de **Java** no curso de **Análise e Desenvolvimento de Sistemas (ADS)**. As atividades têm como objetivo praticar os principais conceitos da **Programação Orientada a Objetos**, utilizando classes, objetos, encapsulamento, herança e sobrescrita de métodos.
+# 📚 Exercícios de Encapsulamento e Herança
 
 ## ✅ Funcionalidades Implementadas
 
@@ -77,7 +75,3 @@ git clone URL_DO_REPOSITORIO
 ## 🧪 Testes Realizados
 
 As classes de teste foram criadas para verificar o funcionamento dos construtores, getters, setters e métodos `toString()`. Os programas foram compilados e executados com sucesso, sem erros de compilação.
-
-## 🎯 Objetivo do Repositório
-
-Este repositório faz parte dos meus estudos em Java e será utilizado para armazenar atividades, exercícios e práticas relacionadas ao desenvolvimento de sistemas e à Programação Orientada a Objetos.
