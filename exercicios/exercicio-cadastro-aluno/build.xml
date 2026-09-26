@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="AlunoSwingNetBeans" default="jar" basedir=".">
+    <property file="nbproject/project.properties" />
+    <property name="classes.dir" value="${build.dir}/classes" />
+
+    <target name="clean">
+        <delete dir="${build.dir}" />
+    </target>
+
+    <target name="compile">
+        <mkdir dir="${classes.dir}" />
+        <javac srcdir="${src.dir}" destdir="${classes.dir}" encoding="${javac.encoding}" source="${javac.source}" target="${javac.target}" includeantruntime="false" />
+    </target>
+
+    <target name="jar" depends="compile">
+        <mkdir dir="${build.dir}" />
+        <jar destfile="${build.dir}/AlunoSwingNetBeans.jar" basedir="${classes.dir}" manifest="${basedir}/manifest.mf" />
+    </target>
+
+    <target name="run" depends="jar">
+        <java jar="${build.dir}/AlunoSwingNetBeans.jar" fork="true" />
+    </target>
+</project>
