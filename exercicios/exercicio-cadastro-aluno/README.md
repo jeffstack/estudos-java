@@ -1,6 +1,6 @@
-# Cadastro de Alunos — CBTLPR2
+# Cadastro de Alunos
 
-Programa desenvolvido em Java com interface gráfica para o exercício da disciplina CBTLPR2 (Java).
+Programa desenvolvido em Java com interface gráfica.
 
 ## ✨ Funcionalidades
 
