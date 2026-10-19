@@ -1,4 +1,4 @@
-# TP03
+# Exercício: Calculadora e Cadastro de Pessoa
 
 Programa desenvolvido em Java com interface gráfica Swing, conforme a proposta do exercício.
 
